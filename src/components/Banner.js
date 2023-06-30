@@ -15,8 +15,8 @@ export const Banner = () => {
     "Hardworking, reliable guy. Learning new things and solving problems comes naturally to me, and I'm not afraid of challenges or busy schedules. I also have a strong desire to develop myself further as a person and as an employee. I also have good skills to work independently and responsibly. If I promise something it will happen on time. 5 months intense experience in NetMaa Ltd. Recruitment training, where I learned modern web programming technologies. Strong operations professional graduated from Liberal Adult Education Game Technology of Ahlman Institute. One year of experience in game design and programming.",
   ];
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 500); // new delta for theText
-  const period = 2000; // new period for theText
+  const [delta, setDelta] = useState(300 - Math.random() * 500);
+  const period = 1000; // new period for theText
   const [theText, setTheText] = useState("");
   const [theTextDelta, setTheTextDelta] = useState(2000);
   const theTextPeriod = 2000;
@@ -53,14 +53,14 @@ export const Banner = () => {
   };
   useEffect(() => {
     let theTextTicker = setInterval(() => {
-      ticker();
+      tickers();
     }, theTextDelta);
     return () => {
       clearInterval(theTextTicker);
     };
   }, [theText]);
 
-  const ticker = () => {
+  const tickers = () => {
     let e = theTextLoopNum % theTextRotator.length;
 
     let theTextFullText = theTextRotator[e];
@@ -79,7 +79,7 @@ export const Banner = () => {
     } else if (theTextIsDeleting && theTextUpdateText === "") {
       setTheTextIsDeleting(false);
       setTheTextLoopNum(theTextLoopNum + 1);
-      setTheTextDelta(5000);
+      setTheTextDelta(500);
     }
   };
   // my training function

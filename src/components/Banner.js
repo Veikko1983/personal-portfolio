@@ -7,19 +7,19 @@ import TrackVisibility from "react-on-screen";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
-  const [theTextLoopNum, setTheTextLoopNum] = useState(0);
+  //const [theTextLoopNum, setTheTextLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const [theTextIsDeleting, setTheTextIsDeleting] = useState(false);
+  //const [theTextIsDeleting, setTheTextIsDeleting] = useState(false);
   const toRotate = ["Game Developer", "Front-End Developer"];
-  const theTextRotator = [
-    "Hardworking, reliable guy. Learning new things and solving problems comes naturally to me, and I'm not afraid of challenges or busy schedules. I also have a strong desire to develop myself further as a person and as an employee. I also have good skills to work independently and responsibly. If I promise something it will happen on time. 5 months intense experience in NetMaa Ltd. Recruitment training, where I learned modern web programming technologies. Strong operations professional graduated from Liberal Adult Education Game Technology of Ahlman Institute. One year of experience in game design and programming.",
-  ];
+  // const theTextRotator = [
+  //   "Hardworking, reliable guy. Learning new things and solving problems comes naturally to me, and I'm not afraid of challenges or busy schedules. I also have a strong desire to develop myself further as a person and as an employee. I also have good skills to work independently and responsibly. If I promise something it will happen on time. 5 months intense experience in NetMaa Ltd. Recruitment training, where I learned modern web programming technologies. Strong operations professional graduated from Liberal Adult Education Game Technology of Ahlman Institute. One year of experience in game design and programming.",
+  // ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 500);
   const period = 1000; // new period for theText
-  const [theText, setTheText] = useState("");
-  const [theTextDelta, setTheTextDelta] = useState(2000);
-  const theTextPeriod = 2000;
+  //const [theText, setTheText] = useState("");
+  //const [theTextDelta, setTheTextDelta] = useState(1000);
+  //const theTextPeriod = 2000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -51,37 +51,37 @@ export const Banner = () => {
       setDelta(500);
     }
   };
-  useEffect(() => {
-    let theTextTicker = setInterval(() => {
-      tickers();
-    }, theTextDelta);
-    return () => {
-      clearInterval(theTextTicker);
-    };
-  }, [theText]);
+  // useEffect(() => {
+  //   let theTextTicker = setInterval(() => {
+  //     tickers();
+  //   }, theTextDelta);
+  //   return () => {
+  //     clearInterval(theTextTicker);
+  //   };
+  // }, [theText]);
 
-  const tickers = () => {
-    let e = theTextLoopNum % theTextRotator.length;
+  // const tickers = () => {
+  //   let e = theTextLoopNum % theTextRotator.length;
 
-    let theTextFullText = theTextRotator[e];
+  //   let theTextFullText = theTextRotator[e];
 
-    let theTextUpdateText = isDeleting
-      ? theTextFullText.substring(0, text.length - 1)
-      : theTextFullText.substring(0, text.length + 1000);
-    setTheText(theTextUpdateText);
+  //   let theTextUpdateText = theTextIsDeleting
+  //     ? theTextFullText.substring(0, text.length - 1)
+  //     : theTextFullText.substring(0, text.length + 1000);
+  //   setTheText(theTextUpdateText);
 
-    if (theTextIsDeleting) {
-      setTheTextDelta((prevDelta) => prevDelta / 2);
-    }
-    if (!theTextIsDeleting && theTextUpdateText === theTextFullText) {
-      setTheTextIsDeleting(true);
-      setTheTextDelta(theTextPeriod);
-    } else if (theTextIsDeleting && theTextUpdateText === "") {
-      setTheTextIsDeleting(false);
-      setTheTextLoopNum(theTextLoopNum + 1);
-      setTheTextDelta(500);
-    }
-  };
+  //   if (theTextIsDeleting) {
+  //     setTheTextDelta((prevDelta) => prevDelta / 2);
+  //   }
+  //   if (!theTextIsDeleting && theTextUpdateText === theTextFullText) {
+  //     setTheTextIsDeleting(true);
+  //     setTheTextDelta(theTextPeriod);
+  //   } else if (theTextIsDeleting && theTextUpdateText === "") {
+  //     setTheTextIsDeleting(false);
+  //     setTheTextLoopNum(theTextLoopNum + 1);
+  //     setTheTextDelta(500);
+  //   }
+  // };
   // my training function
   function letsConnect(e) {
     //e.target.style.width = "160px";
@@ -106,7 +106,7 @@ export const Banner = () => {
                     {"Hi I´m Veikko Ruopio "}
                     <span className="wrap">{text}</span>
                   </h1>
-                  {/* <p>
+                  <p>
                     Hardworking, reliable guy. Learning new things and solving
                     problems comes naturally to me, and I'm not afraid of
                     challenges or busy schedules. I also have a strong desire to
@@ -118,8 +118,8 @@ export const Banner = () => {
                     operations professional graduated from Liberal Adult
                     Education Game Technology of Ahlman Institute. One year of
                     experience in game design and programming.
-                  </p> */}
-                  <p className="wrap">{theText}</p>
+                  </p>
+                  {/* <p className="wrap">{theText}</p> */}
                   <button onClick={letsConnect}>
                     <h5>
                       <a

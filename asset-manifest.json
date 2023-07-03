@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.77702e31.css",
+    "main.js": "/personal-portfolio/static/js/main.30985cca.js",
+    "static/js/787.fb771931.chunk.js": "/personal-portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/nodejs.png": "/personal-portfolio/static/media/nodejs.fec8553a062eb1c472dd.png",
+    "static/media/bootstrap.png": "/personal-portfolio/static/media/bootstrap.2b41354668703cdd65a1.png",
+    "static/media/csharp.png": "/personal-portfolio/static/media/csharp.dd5bd2dc4db3e10c2d8f.png",
+    "static/media/github.png": "/personal-portfolio/static/media/github.6f33a12285560f6518a5.png",
+    "static/media/unity.jpg": "/personal-portfolio/static/media/unity.83002526d5f5bd13fae4.jpg",
+    "static/media/Css.jpg": "/personal-portfolio/static/media/Css.bd2dddd184c0973341e1.jpg",
+    "static/media/CentraNo2-Bold.ttf": "/personal-portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/personal-portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/personal-portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/XxxCalculator.png": "/personal-portfolio/static/media/XxxCalculator.0dcaee8b19590ec8a28e.png",
+    "static/media/nextjs.png": "/personal-portfolio/static/media/nextjs.2e6a1b95bb207fbb401b.png",
+    "static/media/threeGamesInOne.jpg": "/personal-portfolio/static/media/threeGamesInOne.05af468e17a7cbbb46e8.jpg",
+    "static/media/ProfilePic.jpg": "/personal-portfolio/static/media/ProfilePic.845f16af7909d35f73d6.jpg",
+    "static/media/nightForrest1.jpeg": "/personal-portfolio/static/media/nightForrest1.a4c09ac4c7d964f20e71.jpeg",
+    "static/media/SteelAndBone.jpg": "/personal-portfolio/static/media/SteelAndBone.58104527202ba958e1e8.jpg",
+    "static/media/Dart.jpg": "/personal-portfolio/static/media/Dart.abec1cb50baaed6a37a7.jpg",
+    "static/media/azuredevops.png": "/personal-portfolio/static/media/azuredevops.9f2f949a776af6ee6ca6.png",
+    "static/media/javascript.png": "/personal-portfolio/static/media/javascript.b268ccceb187ba64a09c.png",
+    "static/media/react.jpg": "/personal-portfolio/static/media/react.fc8f9b68f2d4c5543379.jpg",
+    "static/media/Html5.png": "/personal-portfolio/static/media/Html5.68a0575ad03998b35b3d.png",
+    "static/media/revicons.eot": "/personal-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/personal-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/mui.jpeg": "/personal-portfolio/static/media/mui.57492f10ed41632cea54.jpeg",
+    "static/media/revicons.woff": "/personal-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/personal-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/personal-portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/arrow2.svg": "/personal-portfolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
+    "static/media/arrow1.svg": "/personal-portfolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
+    "main.77702e31.css.map": "/personal-portfolio/static/css/main.77702e31.css.map",
+    "main.30985cca.js.map": "/personal-portfolio/static/js/main.30985cca.js.map",
+    "787.fb771931.chunk.js.map": "/personal-portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77702e31.css",
+    "static/js/main.30985cca.js"
+  ]
+}

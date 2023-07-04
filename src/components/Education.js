@@ -4,7 +4,7 @@ export const Education = () => {
   return (
     <Container className="education" id="education">
       <Row className="align-items-center">
-        <Col xs={12} md={6} xl={7} style={{ marginLeft: 280 }}>
+        <Col xs={12} md={6} xl={7} style={{ margin: "auto" }}>
           <div>
             <h2>Education</h2>
             <br />

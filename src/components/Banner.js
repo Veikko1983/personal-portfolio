@@ -63,8 +63,6 @@ export const Banner = () => {
                 >
                   <span className="tagline">Welcome to my CV</span>
                   <h1>
-                    {/* orginal text below then my own*/}
-                    {/* {"Hi I´m webdecoded"} */}
                     {"Hi I´m Veikko Ruopio "}
                     <span className="wrap">{text}</span>
                   </h1>
@@ -81,7 +79,6 @@ export const Banner = () => {
                     Education Game Technology of Ahlman Institute. One year of
                     experience in game design and programming.
                   </p>
-                  {/* <p className="wrap">{theText}</p> */}
                   <button onClick={letsConnect}>
                     <h5>
                       <a
@@ -91,7 +88,6 @@ export const Banner = () => {
                         Send email
                       </a>
                     </h5>
-                    {/* Let´s connect <ArrowRightCircle size={25} /> */}
                     <ArrowRightCircle size={25} />
                   </button>
                 </div>

@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/XxxCalculator.png"; // XxxCalculator2020
-import projImg2 from "../assets/img/SteelAndBone.jpg"; // Steal & Bone
-import projImg3 from "../assets/img/threeGamesInOne.jpg"; // Ahlman Mansion 2020
+import projImg1XxxCalculator from "../assets/img/XxxCalculator.png"; // XxxCalculator2020
+import projImg2SteelAndBone from "../assets/img/SteelAndBone.jpg"; // Steal & Bone
+import projImg3threeGamesInOne from "../assets/img/threeGamesInOne.jpg"; // Ahlman Mansion 2020
 //import colorSharp2 from "../assets/img/color-sharp2.png"; // remember to change this to other color, color of your choice.
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -13,7 +13,7 @@ export const Projects = () => {
       title: "XXXCalculator2020",
       description:
         "This was my solo hobby project. Using Visual Studio 2019, C# and Fl Studio. This game should not be played with a serious face. The game includes three different game modes and a secret game. Normal mode, a.k.a training mode. Guess mode and classic memory game. There is also great electronic dance music in the game, with which you can even dance and party. You can also add your high score to the leaderboard. (Guess mode and memory game only)",
-      imgUrl: projImg1,
+      imgUrl: projImg1XxxCalculator,
       url: "https://bazzokoira.itch.io/xxxcalculator2020-full-game",
     },
     {
@@ -21,31 +21,16 @@ export const Projects = () => {
       description:
         "Steel & Bone is made by first-year game development students and was made over a about 3 month period. It was made by six programmers and three graphic designers. It`s a Action Dungeon Crawling Adventure Role-Playing Game with little puzzle mechanics.",
 
-      imgUrl: projImg2,
+      imgUrl: projImg2SteelAndBone,
       url: "https://store.steampowered.com/app/1252030/Steel__Bone",
     },
     {
       title:
         "Ahlman Mansion 2020 games(Delta Nova, Lost Boy & Outer World Attackers)",
       description: "3 games in Alhman Mansion 2020 game",
-      imgUrl: projImg3,
+      imgUrl: projImg3threeGamesInOne,
       url: "https://store.steampowered.com/app/1252020/Ahlman_Mansion_2020",
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg1,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
   ];
   return (
     <section className="project" id="project">

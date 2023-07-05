@@ -96,7 +96,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
+                    isVisible ? "animate__animated animate__bounce" : ""
                   }
                 >
                   <span className="tagline">Welcome to my CV</span>

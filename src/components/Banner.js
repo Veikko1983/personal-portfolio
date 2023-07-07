@@ -68,7 +68,7 @@ export const Banner = () => {
                     <span className="wrap">{text}</span>
                   </h1>
                   <br />
-                  <p>
+                  <p style={{ paddingTop: 200 }}>
                     Hardworking, reliable guy. Learning new things and solving
                     problems comes naturally to me, and I'm not afraid of
                     challenges or busy schedules. I also have a strong desire to

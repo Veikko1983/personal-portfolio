@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle, Textarea } from "react-bootstrap-icons";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import ProfilePic from "../assets/img/ProfilePic.jpg";
 //import headerImg from "../assets/img/header-img.svg"; // orginal img
 import TrackVisibility from "react-on-screen";

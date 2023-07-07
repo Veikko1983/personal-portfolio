@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle, Textarea } from "react-bootstrap-icons";
 import ProfilePic from "../assets/img/ProfilePic.jpg";
 //import headerImg from "../assets/img/header-img.svg"; // orginal img
 import TrackVisibility from "react-on-screen";
@@ -62,10 +62,12 @@ export const Banner = () => {
                   }
                 >
                   <span className="tagline">Welcome to my CV</span>
-                  <h1>
+                  <h1 style={{ height: 100 }}>
                     {"Hi I´m Veikko Ruopio "}
+                    <br />
                     <span className="wrap">{text}</span>
                   </h1>
+                  <br />
                   <p>
                     Hardworking, reliable guy. Learning new things and solving
                     problems comes naturally to me, and I'm not afraid of

@@ -38,7 +38,7 @@ export const NavBar = () => {
           {/* <img src={logo} alt="Logo" /> */}
           {/* visitors counter */}
           <RetroHitCounter
-            hits={0}
+            hits={0} // add some functions here!!!
             withBorder={true}
             withGlow={true}
             minLength={4}

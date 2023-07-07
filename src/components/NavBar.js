@@ -7,7 +7,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 //import navIcon3 from "../assets/img/nav-icon3.svg";
 //import { HashLink } from "react-router-hash-link";
 //import { BrowserRouter as Router } from "react-router-dom";
-
+import RetroHitCounter from "react-retro-hit-counter";
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -35,8 +35,24 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          {/* add button here and visitors counter */}
           {/* <img src={logo} alt="Logo" /> */}
+          {/* visitors counter */}
+          <RetroHitCounter
+            hits={0}
+            withBorder={true}
+            withGlow={false}
+            minLength={4}
+            size={25}
+            padding={4}
+            digitSpacing={3}
+            segmentThickness={4}
+            segmentSpacing={0.5}
+            segmentActiveColor="white"
+            segmentInactiveColor="#315324"
+            backgroundColor="#222222"
+            borderThickness={3}
+            glowStrength={0.3}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

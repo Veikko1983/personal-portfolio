@@ -38,9 +38,9 @@ export const NavBar = () => {
           {/* <img src={logo} alt="Logo" /> */}
           {/* visitors counter */}
           <RetroHitCounter
-            hits={1}
+            hits={0}
             withBorder={true}
-            withGlow={false}
+            withGlow={true}
             minLength={4}
             size={25}
             padding={4}
@@ -48,7 +48,7 @@ export const NavBar = () => {
             segmentThickness={4}
             segmentSpacing={0.5}
             segmentActiveColor="white"
-            segmentInactiveColor="#315324"
+            segmentInactiveColor="grey"
             backgroundColor="#222222"
             borderThickness={3}
             glowStrength={0.3}

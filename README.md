@@ -1,2 +1,2 @@
-adding project to github:
+adding project to github-pages:
 npm run deploy

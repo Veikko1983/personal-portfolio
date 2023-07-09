@@ -37,7 +37,7 @@ export const NavBar = () => {
         <Navbar.Brand href="/">
           {/* <img src={logo} alt="Logo" /> */}
           {/* visitors counter */}
-          <RetroHitCounter
+          {/* <RetroHitCounter
             hits={0} // add some functions here!!!
             withBorder={true}
             withGlow={true}
@@ -52,7 +52,7 @@ export const NavBar = () => {
             backgroundColor="#222222"
             borderThickness={3}
             glowStrength={0.3}
-          />
+          /> */}
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

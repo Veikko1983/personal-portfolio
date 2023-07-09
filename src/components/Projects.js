@@ -12,7 +12,7 @@ export const Projects = () => {
     {
       title: "XXXCalculator2020",
       description:
-        "This was my solo hobby project. Using Visual Studio 2019, C# and Fl Studio. This game should not be played with a serious face. The game includes three different game modes and a secret game. Normal mode, a.k.a training mode. Guess mode and classic memory game. There is also great electronic dance music in the game, with which you can even dance and party. You can also add your high score to the leaderboard. (Guess mode and memory game only)",
+        "This was my solo hobby project. Using Visual Studio 2019, C# and Fl Studio. This game should not be played with a serious face. The game includes three different game modes and a secret game. Normal mode, a.k.a training mode. Guess mode and classic memory game.",
       imgUrl: projImg1XxxCalculator,
       url: "https://bazzokoira.itch.io/xxxcalculator2020-full-game",
     },

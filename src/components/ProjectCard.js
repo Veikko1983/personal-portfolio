@@ -9,11 +9,11 @@ export const ProjectCard = ({ title, description, imgUrl, url }) => {
           <h5>{title}</h5>
           <span>{description}</span>
           <div>
-            <h5>
+            <h6>
               <a target="_blank" style={{ color: "white" }} href={url}>
                 Project Url
               </a>
-            </h5>
+            </h6>
           </div>
         </div>
       </div>

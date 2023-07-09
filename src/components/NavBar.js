@@ -42,7 +42,7 @@ export const NavBar = () => {
             withBorder={true}
             withGlow={true}
             minLength={4}
-            size={25}
+            size={20}
             padding={4}
             digitSpacing={3}
             segmentThickness={4}

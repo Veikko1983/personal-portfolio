@@ -6,9 +6,8 @@ export const ProjectCard = ({ title, description, imgUrl, url }) => {
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
-          <h4>{title}</h4>
-          {/* task: span text field is not composed according to the text in the image */}
-          <span className="align-items-center">{description}</span>
+          <h5>{title}</h5>
+          <span>{description}</span>
           <div>
             <h5>
               <a target="_blank" style={{ color: "white" }} href={url}>

@@ -12,6 +12,11 @@ export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
+  const [counter, setCounter] = useState(0);
+
+  // const handleInitialCountChange = (event) => {
+  //   setCounter(event.target.value);
+  // };
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -34,11 +39,11 @@ export const NavBar = () => {
     // <Router>
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
-          {/* <img src={logo} alt="Logo" /> */}
-          {/* visitors counter */}
-          {/* <RetroHitCounter
-            hits={0} // add some functions here!!!
+        <Navbar.Brand onClick={() => setCounter(counter + 1)}>
+          {/* <img src={logo} alt="Logo" />  */}
+          {/* visitors counter  */}
+          <RetroHitCounter
+            hits={counter} // add some functions here!!!
             withBorder={true}
             withGlow={true}
             minLength={4}
@@ -52,7 +57,7 @@ export const NavBar = () => {
             backgroundColor="#222222"
             borderThickness={3}
             glowStrength={0.3}
-          /> */}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>

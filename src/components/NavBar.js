@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-//import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 //import navIcon2 from "../assets/img/nav-icon2.svg";
 //import navIcon3 from "../assets/img/nav-icon3.svg";
@@ -40,10 +39,12 @@ export const NavBar = () => {
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand onClick={() => setCounter(counter + 1)}>
-          {/* <img src={logo} alt="Logo" />  */}
           {/* visitors counter  */}
+          {counter > 0 && (
+            <p style={{ color: "white" }}>U clicked me, thank u.</p>
+          )}
           <RetroHitCounter
-            hits={counter} // add some functions here!!!
+            hits={counter}
             withBorder={true}
             withGlow={true}
             minLength={4}

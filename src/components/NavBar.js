@@ -40,8 +40,8 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand onClick={() => setCounter(counter + 1)}>
           {/* visitors counter  */}
-          {counter > 0 && (
-            <p style={{ color: "white" }}>U clicked me, thank u.</p>
+          {counter > 9 && (
+            <p style={{ color: "white" }}>You like clicking...</p>
           )}
           <RetroHitCounter
             hits={counter}

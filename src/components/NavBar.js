@@ -11,11 +11,18 @@ export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
-  const [counter, setCounter] = useState(0);
+  //const [counter, setCounter] = useState(0);
 
-  // const handleInitialCountChange = (event) => {
-  //   setCounter(event.target.value);
-  // };
+  const [visits, setVisits] = useState(0);
+
+  useEffect(() => {
+    const storedVisits = Number(localStorage.getItem("RetroHitCounter")) || 0;
+    setVisits(storedVisits + 1);
+  }, []);
+  useEffect(() => {
+    localStorage.setItem("RetroHitCounter", visits);
+  }, [visits]);
+
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -38,13 +45,14 @@ export const NavBar = () => {
     // <Router>
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand onClick={() => setCounter(counter + 1)}>
+        {/* <Navbar.Brand onClick={() => setCounter(counter + 1)}> */}
+        <Navbar.Brand>
           {/* visitors counter  */}
-          {counter > 9 && (
+          {/* {counter > 9 && (
             <p style={{ color: "white" }}>You like clicking...</p>
-          )}
+          )} */}
           <RetroHitCounter
-            hits={counter}
+            hits={visits}
             withBorder={true}
             withGlow={true}
             minLength={4}

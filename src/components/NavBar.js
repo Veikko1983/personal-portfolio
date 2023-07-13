@@ -15,9 +15,12 @@ export const NavBar = () => {
 
   const [visits, setVisits] = useState(0);
 
+  // Loading from localStorage
   useEffect(() => {
     const storedVisits = Number(localStorage.getItem("RetroHitCounter")) || 0;
     setVisits(storedVisits + 1);
+
+    // Saving in localStorage
   }, []);
   useEffect(() => {
     localStorage.setItem("RetroHitCounter", visits);

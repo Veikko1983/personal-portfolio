@@ -97,6 +97,7 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
+            <br />
             <img
               style={{ width: 400, height: 400 }}
               src={ProfilePic}

@@ -129,7 +129,7 @@ export const NavBar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a
-                target="_blank"
+                target="blank"
                 href="https://www.linkedin.com/in/veikko-ruopio-a05189192"
               >
                 <img src={navIcon1} alt="" />

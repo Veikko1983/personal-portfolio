@@ -17,7 +17,7 @@ export const Education = () => {
             <h5>Hervanta Vocational School</h5>
             <p>
               Vocational upper secondary qualification of food industry
-              1999-2021
+              1999-2001
             </p>
           </div>
         </Col>

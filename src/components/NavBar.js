@@ -81,6 +81,7 @@ export const NavBar = () => {
             <p style={{ color: "white" }}>You like clicking...</p>
           )} */}
           <RetroHitCounter
+            blogPage={true}
             hits={visits} // add slug here when swr is rdy for use
             withBorder={true}
             withGlow={true}

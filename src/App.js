@@ -8,6 +8,7 @@ import { Footer } from "./components/Footer";
 import { WorkExperience } from "./components/WorkExperience";
 import { Education } from "./components/Education";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Languages } from "./components/Languages";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <WorkExperience />
       <Skills />
       <Projects />
+      <Languages />
       <Footer />
     </div>
   );

@@ -44,11 +44,6 @@ export const Banner = () => {
     }
   };
 
-  // my training function
-  function letsConnect(e) {
-    //e.target.style.width = "160px";
-    console.log("toimii");
-  }
   return (
     <section className="banner" id="home">
       <Container>
@@ -81,17 +76,15 @@ export const Banner = () => {
                     Education Game Technology of Ahlman Institute. One year of
                     experience in game design and programming.
                   </p>
-                  <button onClick={letsConnect}>
-                    <h5>
-                      <a
-                        style={{ color: "white" }}
-                        href="mailto: veikko1983@gmail.com"
-                      >
-                        Send email
-                      </a>
-                    </h5>
-                    <ArrowRightCircle size={25} />
-                  </button>
+                  <h5>
+                    <a
+                      style={{ color: "white" }}
+                      href="mailto: veikko1983@gmail.com"
+                    >
+                      Send email
+                    </a>
+                  </h5>
+                  <ArrowRightCircle size={25} />
                 </div>
               )}
             </TrackVisibility>

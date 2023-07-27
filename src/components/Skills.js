@@ -72,6 +72,7 @@ export const Skills = () => {
                     src={csharp}
                     alt="Image"
                   />
+
                   <h5>C#</h5>
                 </div>
                 <div className="item">

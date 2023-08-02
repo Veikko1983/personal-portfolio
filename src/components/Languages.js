@@ -6,6 +6,7 @@ export const Languages = () => {
       <Row className="align-items-center">
         <Col xs={12} md={6} xl={7} style={{ margin: "auto" }}>
           <div>
+            <hr style={{ color: "whitesmoke" }} />
             <h2>Languages</h2>
             <br />
             <h5>English</h5>
@@ -13,6 +14,7 @@ export const Languages = () => {
             <br />
             <h5>Finnish</h5>
             <p>Native or bilingual proficiency</p>
+            <hr style={{ color: "whitesmoke" }} />
           </div>
         </Col>
       </Row>

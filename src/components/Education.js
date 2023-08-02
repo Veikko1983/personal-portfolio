@@ -6,6 +6,7 @@ export const Education = () => {
       <Row className="align-items-center">
         <Col xs={12} md={6} xl={7} style={{ margin: "auto" }}>
           <div>
+            <hr style={{ color: "whitesmoke" }} />
             <h2>Education</h2>
             <br />
             <h5>Suomen Yrittäjäopisto</h5>
@@ -19,6 +20,7 @@ export const Education = () => {
               Vocational upper secondary qualification of food industry
               1999-2001
             </p>
+            <hr style={{ color: "whitesmoke" }} />
           </div>
         </Col>
       </Row>

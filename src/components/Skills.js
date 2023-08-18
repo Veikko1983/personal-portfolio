@@ -54,61 +54,75 @@ export const Skills = () => {
   // FUNCTIONS TO WIKIPAGES //
   function cSharpWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location =
       "https://en.wikipedia.org/wiki/C_Sharp_(programming_language)";
   }
   function javascriptWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://fi.wikipedia.org/wiki/JavaScript";
   }
   function dartWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location =
       "https://en.wikipedia.org/wiki/Dart_(programming_language)";
   }
   function reactWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/React_(software)";
   }
   function nextJsWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/Next.js";
   }
   function cssWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/CSS";
   }
   function htmlWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/HTML";
   }
   function muiWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://mui.com/";
   }
   function bootstrapWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location =
       "https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)";
   }
   function azureDevOpsWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/Azure_DevOps_Server";
   }
   function sourceTreeWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://www.sourcetreeapp.com/";
   }
   function nodeJsWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/Node.js";
   }
   function gitHubWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/GitHub";
   }
   function unityWiki(e) {
     e.preventDefault();
+    window.open("blank");
     window.location = "https://en.wikipedia.org/wiki/Unity_(game_engine)";
   }
   return (
